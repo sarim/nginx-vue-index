@@ -1,0 +1,105 @@
+.col.sign {
+  width: 30px;
+}
+
+.col {
+  float:left;
+  width: 20%;
+  padding: 5px;
+}
+
+.col.date {
+  width: 240px;
+}
+
+.col.size {
+  width: 120px;
+  text-align: right;
+}
+
+.col.name {
+  width: calc(100% - 390px);
+}
+.node-search {
+    margin-left: -5px;
+    margin-right: 10px;
+    overflow: hidden;
+    transition: width .3s;
+    width: 200px;
+}
+.node-search.closed {
+    width: 34px;
+}
+.node-search .input-group {
+    width: 200px;
+}
+
+.node-search .input-group span, .node-search .input-group input {
+    border-radius: 0px !important;
+}
+
+.list-group-item {
+  padding: 0px;
+  border-radius: 0px !important;
+  margin-bottom: -1px !important;
+  background-color: transparent;
+}
+
+.list-gittu > li:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.node-sort {
+    background-color: #e0e0e0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.node-sort .col .glyphicon {
+    display: none;
+}
+.node-sort .col.sorted-active .glyphicon {
+    display: inline;
+}
+
+.node-sort .col.sorted-active {
+    color: #337ab7;
+}
+
+ul.list-gittu {
+    padding-left: 30px;
+    list-style: none;
+}
+
+.node-search .input-group-addon, a, .node-sort .col {
+  cursor: pointer !important;
+  -webkit-user-select: none !important;
+}
+
+.node-search,ul a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.breadcrumb a {
+    font-size: 18px;
+    padding: 15px 5px !important;
+}
+
+ol.breadcrumb>li+li:before {
+    content: "\e258";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.loading {
+    padding: 5px;
+    margin-left: 30px;
+}
