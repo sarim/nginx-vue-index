@@ -18,7 +18,7 @@ Lets take a took at it.
 
 Nginx Config
 
-```
+```Nginx
 server {
     listen       8080;
     server_name  localhost;
@@ -45,7 +45,7 @@ server {
 
 Clone the repo to document root and run bower.
 
-``` sh
+```Shell
 cd /Volumes/Storage
 git clone https://github.com/sarim/nginx-vue-index vueindex
 cd vueindex
